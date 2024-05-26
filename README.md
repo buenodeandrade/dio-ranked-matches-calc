@@ -39,10 +39,14 @@ At the end, the application should display a message:
 
 # Screenshots
 ## PC:
+<p align="center">
 ![image](https://github.com/buenodeandrade/dio-ranked-matches-calc/assets/147355115/44108034-c717-4df2-a5a2-19a94e544a22)
-
+</p>
 ## Tablet:
+<p align="center">
 ![image](https://github.com/buenodeandrade/dio-ranked-matches-calc/assets/147355115/33e1fadd-4fc9-47ad-a43c-d88e109d485f)
-
+</p>
 ## Mobile:
+<p align="center">
 ![image](https://github.com/buenodeandrade/dio-ranked-matches-calc/assets/147355115/00a5545f-f460-4663-9992-e37ce8a6ade1)
+</p>
