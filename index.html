@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Partidas Rankeadas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Partidas Rankeadas</h1>
+        <form id="rankForm">
+            <label for="vitorias">Vitórias:</label>
+            <input type="number" id="vitorias" name="vitorias" placeholder="Insira um número aqui..." required>
+            <label for="derrotas">Derrotas:</label>
+            <input type="number" id="derrotas" name="derrotas" placeholder="Insira um número aqui..." required>
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="mensagem"></p>
+        <table>
+            <tr>
+                <th>Nível</th>
+                <th>Saldo de Vitórias</th>
+            </tr>
+            <tr>
+                <td>Ferro</td>
+                <td>< 10</td>
+            </tr>
+            <tr>
+                <td>Bronze</td>
+                <td>11 - 20</td>
+            </tr>
+            <tr>
+                <td>Prata</td>
+                <td>21 - 50</td>
+            </tr>
+            <tr>
+                <td>Ouro</td>
+                <td>51 - 80</td>
+            </tr>
+            <tr>
+                <td>Diamante</td>
+                <td>81 - 90</td>
+            </tr>
+            <tr>
+                <td>Lendário</td>
+                <td>91 - 100</td>
+            </tr>
+            <tr>
+                <td>Imortal</td>
+                <td>> 101</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+/* Estilo de jogos retrô */
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('cs16.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(255, 140, 0, 1.0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 4px solid rgba(255, 140, 0, 1.0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    max-width: 800px; /* Largura máxima para telas grandes */
+    width: 90%; /* Definindo largura para ser responsivo */
+    margin: 0 10px; /* Adiciona margem lateral */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 1.2em;
+    display: block;
+    margin: 10px 0 5px;
+    color: rgba(255, 140, 0, 1.0);
+    text-align: center;
+}
+
+form input {
+    font-size: 1em;
+    padding: 5px;
+    border: 2px solid rgba(255, 140, 0, 1.0);
+    border-radius: 5px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 140, 0, 1.0);
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+form input::placeholder {
+    color: rgba(255, 140, 0, 0.7);
+    text-align: center;
+}
+
+form button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 140, 0, 1.0);
+    color: #000;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form button:hover {
+    background-color: rgba(255, 165, 0, 1.0);
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    font-size: 0.8em; /* Tamanho da fonte menor */
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 140, 0, 1.0);
+}
+
+/* Estilos para telas menores que 768px (Tablets) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    form label, p {
+        font-size: 1em;
+    }
+
+    form input, form button {
+        font-size: 1em;
+    }
+}
+
+/* Estilos para telas menores que 576px (Celulares) */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    form label, p {
+        font-size: 0.8em;
+    }
+
+    form input, form button {
+        font-size: 0.8em;
+    }
+}
+
