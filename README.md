@@ -38,11 +38,11 @@ At the end, the application should display a message:
 "The Hero has a balance of **{balance of victories}** and is at the **{level}** level"
 
 # Screenshots
-##PC:
+## PC:
 ![image](https://github.com/buenodeandrade/dio-ranked-matches-calc/assets/147355115/44108034-c717-4df2-a5a2-19a94e544a22)
 
-##Tablet:
+## Tablet:
 ![image](https://github.com/buenodeandrade/dio-ranked-matches-calc/assets/147355115/33e1fadd-4fc9-47ad-a43c-d88e109d485f)
 
-##Mobile:
+## Mobile:
 ![image](https://github.com/buenodeandrade/dio-ranked-matches-calc/assets/147355115/00a5545f-f460-4663-9992-e37ce8a6ade1)
